@@ -1,0 +1,976 @@
+2012-11-11 18:47:22 Error: [MissingControllerException] Controller class MessageController could not be found.
+#0 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 18:50:53 Error: [MissingControllerException] Controller class MessageController could not be found.
+#0 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 18:52:08 Error: [MissingControllerException] Controller class MessageController could not be found.
+#0 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 18:53:03 Error: [MissingControllerException] Controller class MessageController could not be found.
+#0 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 18:53:41 Error: Fatal Error (1): Call to a member function read() on a non-object in [/Applications/MAMP/htdocs/social/app/Controller/MessagesController.php, line 11]
+2012-11-11 18:53:41 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 11, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 11, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 19:07:00 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 19:07:00 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 19:52:53 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 6]
+2012-11-11 19:52:53 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 6, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 6, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 20:03:48 Error: [MissingLayoutException] Layout file "/Applications/MAMP/htdocs/social/app/View/Layouts/‘homepage’.ctp" is missing.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(514): View->_getLayoutFileName('???homepage???')
+#1 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(484): View->renderLayout('', '???homepage???')
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#4 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-11-11 20:05:31 Error: [MissingLayoutException] Layout file "/Applications/MAMP/htdocs/social/app/View/Layouts/‘default’.ctp" is missing.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(514): View->_getLayoutFileName('???default???')
+#1 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(484): View->renderLayout('', '???default???')
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#4 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(MessagesController), Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-11-11 20:05:52 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/social/app/View/Home/show.ctp" is missing.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-11 20:06:14 Error: [MissingActionException] Action HomeController::show() could not be found.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-11 20:06:24 Error: [MissingActionException] Action HomeController::() could not be found.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-11 20:06:29 Error: [MissingActionException] Action HomeController:: () could not be found.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-11 20:06:34 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/social/app/View/Home/index.ctp" is missing.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-11 20:29:49 Error: Fatal Error (1): Call to undefined function asset_url() in [/Applications/MAMP/htdocs/social/app/View/Home/index.ctp, line 2]
+2012-11-11 20:29:49 Error: [FatalErrorException] Call to undefined function asset_url()
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 2, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 2, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 20:31:17 Error: Fatal Error (1): Call to undefined function form_open() in [/Applications/MAMP/htdocs/social/app/View/Home/index.ctp, line 4]
+2012-11-11 20:31:17 Error: [FatalErrorException] Call to undefined function form_open()
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 4, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 4, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 20:42:14 Error: Fatal Error (1): Call to a member function input() on a non-object in [/Applications/MAMP/htdocs/social/app/View/Home/index.ctp, line 6]
+2012-11-11 20:42:14 Error: [FatalErrorException] Call to a member function input() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 6, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 6, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 20:42:29 Error: Fatal Error (1): Call to a member function input() on a non-object in [/Applications/MAMP/htdocs/social/app/View/Home/index.ctp, line 6]
+2012-11-11 20:42:29 Error: [FatalErrorException] Call to a member function input() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 6, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 6, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 20:42:53 Error: Fatal Error (1): Call to a member function input() on a non-object in [/Applications/MAMP/htdocs/social/app/View/Home/index.ctp, line 5]
+2012-11-11 20:42:53 Error: [FatalErrorException] Call to a member function input() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 5, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 5, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 20:43:42 Error: Fatal Error (1): Call to a member function input() on a non-object in [/Applications/MAMP/htdocs/social/app/View/Home/index.ctp, line 5]
+2012-11-11 20:43:42 Error: [FatalErrorException] Call to a member function input() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 5, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 5, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 20:43:50 Error: Fatal Error (1): Call to a member function input() on a non-object in [/Applications/MAMP/htdocs/social/app/View/Home/index.ctp, line 5]
+2012-11-11 20:43:50 Error: [FatalErrorException] Call to a member function input() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 5, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 5, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 20:45:40 Error: Fatal Error (1): Call to a member function text() on a non-object in [/Applications/MAMP/htdocs/social/app/View/Home/index.ctp, line 5]
+2012-11-11 20:45:40 Error: [FatalErrorException] Call to a member function text() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 5, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 5, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 21:21:52 Error: [ConfigureException] No variable $config found in /Applications/MAMP/htdocs/social/app/Config/facebook.php
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Core/Configure.php(267): PhpReader->read('facebook')
+#1 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Lib/FacebookInfo.php(42): Configure::load('facebook')
+#2 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Lib/FB.php(22): FacebookInfo::getConfig()
+#3 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Controller/Component/ConnectComponent.php(79): FB->__construct()
+#4 [internal function]: ConnectComponent->initialize(Object(HomeController))
+#5 /Applications/MAMP/htdocs/social/lib/Cake/Utility/ObjectCollection.php(130): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#8 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(669): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#10 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-11-11 21:23:57 Error: [ConfigureException] No variable $config found in /Applications/MAMP/htdocs/social/app/Config/facebook.php
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Core/Configure.php(267): PhpReader->read('facebook')
+#1 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Lib/FacebookInfo.php(42): Configure::load('facebook')
+#2 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Lib/FB.php(22): FacebookInfo::getConfig()
+#3 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Controller/Component/ConnectComponent.php(79): FB->__construct()
+#4 [internal function]: ConnectComponent->initialize(Object(HomeController))
+#5 /Applications/MAMP/htdocs/social/lib/Cake/Utility/ObjectCollection.php(130): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#8 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(669): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#10 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-11-11 21:30:47 Error: [MissingHelperException] Helper class FacebookHelper could not be found.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('Facebook')
+#1 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(813): HelperCollection->__isset('Facebook')
+#2 /Applications/MAMP/htdocs/social/app/View/Layouts/default.ctp(4): View->__get('Facebook')
+#3 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(921): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(884): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(540): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(484): View->renderLayout('', 'default')
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#8 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#9 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-11-11 21:30:54 Error: [MissingHelperException] Helper class FacebookHelper could not be found.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('Facebook')
+#1 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(813): HelperCollection->__isset('Facebook')
+#2 /Applications/MAMP/htdocs/social/app/View/Layouts/default.ctp(4): View->__get('Facebook')
+#3 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(921): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(884): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(540): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(484): View->renderLayout('', 'default')
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#8 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#9 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-11-11 21:30:57 Error: [MissingHelperException] Helper class FacebookHelper could not be found.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('Facebook')
+#1 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(813): HelperCollection->__isset('Facebook')
+#2 /Applications/MAMP/htdocs/social/app/View/Layouts/default.ctp(4): View->__get('Facebook')
+#3 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(921): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(884): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(540): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(484): View->renderLayout('', 'default')
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#8 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#9 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-11-11 21:31:48 Error: Fatal Error (64): Cannot redeclare HomeController::$helpers in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 4]
+2012-11-11 21:31:48 Error: [FatalErrorException] Cannot redeclare HomeController::$helpers
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Applications/M...', 4)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Applications/M...', 4, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Applications/M...', 4, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 21:31:48 Error: Fatal Error (64): Cannot redeclare HomeController::$helpers in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 4]
+2012-11-11 21:31:48 Error: [FatalErrorException] Cannot redeclare HomeController::$helpers
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Applications/M...', 4)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Applications/M...', 4, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Applications/M...', 4, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 21:32:35 Error: Fatal Error (64): Cannot redeclare HomeController::$helpers in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 4]
+2012-11-11 21:32:35 Error: [FatalErrorException] Cannot redeclare HomeController::$helpers
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Applications/M...', 4)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Applications/M...', 4, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Applications/M...', 4, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 21:32:43 Error: [MissingHelperException] Helper class FacebookHelper could not be found.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('Facebook')
+#1 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(813): HelperCollection->__isset('Facebook')
+#2 /Applications/MAMP/htdocs/social/app/View/Layouts/default.ctp(4): View->__get('Facebook')
+#3 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(921): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(884): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(540): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(484): View->renderLayout('', 'default')
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#8 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#9 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-11-11 21:33:00 Error: Fatal Error (64): Cannot redeclare HomeController::$helpers in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 5]
+2012-11-11 21:33:00 Error: [FatalErrorException] Cannot redeclare HomeController::$helpers
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Applications/M...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Applications/M...', 5, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Applications/M...', 5, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 21:33:09 Error: [MissingHelperException] Helper class FacebookHelper could not be found.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('Facebook')
+#1 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(813): HelperCollection->__isset('Facebook')
+#2 /Applications/MAMP/htdocs/social/app/View/Layouts/default.ctp(4): View->__get('Facebook')
+#3 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(921): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(884): View->_evaluate('/Applications/M...', Array)
+#5 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(540): View->_render('/Applications/M...')
+#6 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(484): View->renderLayout('', 'default')
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#8 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#9 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-11-11 21:45:54 Error: Fatal Error (1): Call to a member function comments() on a non-object in [/Applications/MAMP/htdocs/social/app/View/Home/index.ctp, line 8]
+2012-11-11 21:45:54 Error: [FatalErrorException] Call to a member function comments() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 8, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 8, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 21:46:07 Error: Fatal Error (1): Call to a member function comments() on a non-object in [/Applications/MAMP/htdocs/social/app/View/Home/index.ctp, line 8]
+2012-11-11 21:46:07 Error: [FatalErrorException] Call to a member function comments() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 8, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 8, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 21:46:49 Error: Fatal Error (1): Call to a member function comments() on a non-object in [/Applications/MAMP/htdocs/social/app/View/Home/index.ctp, line 8]
+2012-11-11 21:46:49 Error: [FatalErrorException] Call to a member function comments() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 8, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 8, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 21:47:03 Error: Fatal Error (1): Call to a member function comments() on a non-object in [/Applications/MAMP/htdocs/social/app/View/Home/index.ctp, line 8]
+2012-11-11 21:47:03 Error: [FatalErrorException] Call to a member function comments() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 8, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 8, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 21:47:03 Error: Fatal Error (1): Call to a member function comments() on a non-object in [/Applications/MAMP/htdocs/social/app/View/Home/index.ctp, line 8]
+2012-11-11 21:47:03 Error: [FatalErrorException] Call to a member function comments() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 8, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 8, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 21:49:53 Error: Fatal Error (1): Call to a member function comments() on a non-object in [/Applications/MAMP/htdocs/social/app/View/Home/index.ctp, line 8]
+2012-11-11 21:49:53 Error: [FatalErrorException] Call to a member function comments() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 8, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 8, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 21:50:59 Error: Fatal Error (1): Call to a member function comments() on a non-object in [/Applications/MAMP/htdocs/social/app/View/Home/index.ctp, line 8]
+2012-11-11 21:50:59 Error: [FatalErrorException] Call to a member function comments() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 8, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 8, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 21:53:37 Error: Fatal Error (1): Cannot access empty property in [/Applications/MAMP/htdocs/social/lib/Cake/View/View.php, line 832]
+2012-11-11 21:53:38 Error: [FatalErrorException] Cannot access empty property
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/Applications/M...', 832)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/Applications/M...', 832, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/Applications/M...', 832, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 21:53:49 Error: Fatal Error (1): Cannot access empty property in [/Applications/MAMP/htdocs/social/lib/Cake/View/View.php, line 832]
+2012-11-11 21:53:49 Error: [FatalErrorException] Cannot access empty property
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/Applications/M...', 832)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/Applications/M...', 832, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/Applications/M...', 832, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 21:54:02 Error: Fatal Error (1): Cannot access empty property in [/Applications/MAMP/htdocs/social/lib/Cake/View/View.php, line 832]
+2012-11-11 21:54:02 Error: [FatalErrorException] Cannot access empty property
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/Applications/M...', 832)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/Applications/M...', 832, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/Applications/M...', 832, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 21:54:18 Error: Fatal Error (1): Cannot access empty property in [/Applications/MAMP/htdocs/social/lib/Cake/View/View.php, line 832]
+2012-11-11 21:54:18 Error: [FatalErrorException] Cannot access empty property
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/Applications/M...', 832)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/Applications/M...', 832, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/Applications/M...', 832, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 22:16:32 Error: Fatal Error (1): Call to a member function api() on a non-object in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 6]
+2012-11-11 22:16:32 Error: [FatalErrorException] Call to a member function api() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 6, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 6, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 22:16:32 Error: Fatal Error (1): Call to a member function api() on a non-object in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 6]
+2012-11-11 22:16:32 Error: [FatalErrorException] Call to a member function api() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 6, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 6, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 22:17:05 Error: Fatal Error (1): Call to a member function api() on a non-object in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 6]
+2012-11-11 22:17:05 Error: [FatalErrorException] Call to a member function api() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 6, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 6, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 22:17:05 Error: Fatal Error (1): Call to a member function api() on a non-object in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 6]
+2012-11-11 22:17:05 Error: [FatalErrorException] Call to a member function api() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 6, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 6, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 22:17:11 Error: Fatal Error (1): Call to a member function api() on a non-object in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 6]
+2012-11-11 22:17:11 Error: [FatalErrorException] Call to a member function api() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 6, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 6, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 22:17:16 Error: Fatal Error (1): Call to a member function api() on a non-object in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 6]
+2012-11-11 22:17:16 Error: [FatalErrorException] Call to a member function api() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 6, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 6, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 22:17:16 Error: Fatal Error (1): Call to a member function api() on a non-object in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 6]
+2012-11-11 22:17:16 Error: [FatalErrorException] Call to a member function api() on a non-object
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/M...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/M...', 6, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/M...', 6, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 22:21:47 Error: [FacebookApiException] Invalid OAuth access token signature.
+#0 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(870): BaseFacebook->throwAPIException(Array)
+#1 [internal function]: BaseFacebook->_graph('/search?q=vanco...')
+#2 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(644): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/social/app/Controller/HomeController.php(7): BaseFacebook->api('/search?q=vanco...')
+#4 [internal function]: HomeController->index('home')
+#5 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#6 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-11-11 22:21:48 Error: [FacebookApiException] Invalid OAuth access token signature.
+#0 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(870): BaseFacebook->throwAPIException(Array)
+#1 [internal function]: BaseFacebook->_graph('/search?q=vanco...')
+#2 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(644): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/social/app/Controller/HomeController.php(7): BaseFacebook->api('/search?q=vanco...')
+#4 [internal function]: HomeController->index('home')
+#5 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#6 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-11-11 22:22:48 Error: [FacebookApiException] Invalid OAuth access token signature.
+#0 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(870): BaseFacebook->throwAPIException(Array)
+#1 [internal function]: BaseFacebook->_graph('/me')
+#2 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(644): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/social/app/Controller/HomeController.php(7): BaseFacebook->api('/me')
+#4 [internal function]: HomeController->index('home')
+#5 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#6 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-11-11 22:22:48 Error: [FacebookApiException] Invalid OAuth access token signature.
+#0 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(870): BaseFacebook->throwAPIException(Array)
+#1 [internal function]: BaseFacebook->_graph('/me')
+#2 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(644): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/social/app/Controller/HomeController.php(7): BaseFacebook->api('/me')
+#4 [internal function]: HomeController->index('home')
+#5 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#6 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-11-11 22:28:36 Error: Fatal Error (1): Call to undefined function getSession() in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 7]
+2012-11-11 22:28:37 Error: [FatalErrorException] Call to undefined function getSession()
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 7, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 7, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 22:28:37 Error: Fatal Error (1): Call to undefined function getSession() in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 7]
+2012-11-11 22:28:37 Error: [FatalErrorException] Call to undefined function getSession()
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 7, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 7, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 22:30:20 Error: Fatal Error (1): Class 'FBPublic' not found in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 6]
+2012-11-11 22:30:20 Error: [FatalErrorException] Class 'FBPublic' not found
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'FBPublic...', '/Applications/M...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'FBPublic...', '/Applications/M...', 6, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'FBPublic...', '/Applications/M...', 6, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 22:35:58 Error: [FacebookApiException] Invalid OAuth access token signature.
+#0 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(870): BaseFacebook->throwAPIException(Array)
+#1 [internal function]: BaseFacebook->_graph('/search?q=vanco...')
+#2 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(644): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/social/app/Controller/HomeController.php(7): BaseFacebook->api('/search?q=vanco...')
+#4 [internal function]: HomeController->index('home')
+#5 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#6 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-11-11 22:35:58 Error: [FacebookApiException] Invalid OAuth access token signature.
+#0 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(870): BaseFacebook->throwAPIException(Array)
+#1 [internal function]: BaseFacebook->_graph('/search?q=vanco...')
+#2 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(644): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/social/app/Controller/HomeController.php(7): BaseFacebook->api('/search?q=vanco...')
+#4 [internal function]: HomeController->index('home')
+#5 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#6 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-11-11 22:36:05 Error: [FacebookApiException] Invalid OAuth access token signature.
+#0 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(870): BaseFacebook->throwAPIException(Array)
+#1 [internal function]: BaseFacebook->_graph('')
+#2 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(644): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/social/app/Controller/HomeController.php(7): BaseFacebook->api('')
+#4 [internal function]: HomeController->index('home')
+#5 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#6 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-11-11 22:36:06 Error: [FacebookApiException] Invalid OAuth access token signature.
+#0 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(870): BaseFacebook->throwAPIException(Array)
+#1 [internal function]: BaseFacebook->_graph('')
+#2 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(644): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/social/app/Controller/HomeController.php(7): BaseFacebook->api('')
+#4 [internal function]: HomeController->index('home')
+#5 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#6 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-11-11 22:36:53 Error: Fatal Error (1): Call to undefined method Facebook::session() in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 7]
+2012-11-11 22:36:53 Error: [FatalErrorException] Call to undefined method Facebook::session()
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 7, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 7, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 22:36:54 Error: Fatal Error (1): Call to undefined method Facebook::session() in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 7]
+2012-11-11 22:36:54 Error: [FatalErrorException] Call to undefined method Facebook::session()
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/M...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/M...', 7, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/M...', 7, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 22:37:09 Error: [FacebookApiException] Invalid OAuth access token signature.
+#0 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(870): BaseFacebook->throwAPIException(Array)
+#1 [internal function]: BaseFacebook->_graph()
+#2 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(644): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/social/app/Controller/HomeController.php(7): BaseFacebook->api()
+#4 [internal function]: HomeController->index('home')
+#5 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#6 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-11-11 22:37:09 Error: [FacebookApiException] Invalid OAuth access token signature.
+#0 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(870): BaseFacebook->throwAPIException(Array)
+#1 [internal function]: BaseFacebook->_graph()
+#2 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(644): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/social/app/Controller/HomeController.php(7): BaseFacebook->api()
+#4 [internal function]: HomeController->index('home')
+#5 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#6 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-11-11 22:37:11 Error: [FacebookApiException] Invalid OAuth access token signature.
+#0 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(870): BaseFacebook->throwAPIException(Array)
+#1 [internal function]: BaseFacebook->_graph()
+#2 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(644): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/social/app/Controller/HomeController.php(7): BaseFacebook->api()
+#4 [internal function]: HomeController->index('home')
+#5 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#6 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-11-11 22:37:12 Error: [FacebookApiException] Invalid OAuth access token signature.
+#0 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(870): BaseFacebook->throwAPIException(Array)
+#1 [internal function]: BaseFacebook->_graph()
+#2 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(644): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/social/app/Controller/HomeController.php(7): BaseFacebook->api()
+#4 [internal function]: HomeController->index('home')
+#5 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#6 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-11-11 22:37:13 Error: [FacebookApiException] Invalid OAuth access token signature.
+#0 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(870): BaseFacebook->throwAPIException(Array)
+#1 [internal function]: BaseFacebook->_graph()
+#2 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(644): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/social/app/Controller/HomeController.php(7): BaseFacebook->api()
+#4 [internal function]: HomeController->index('home')
+#5 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#6 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-11-11 22:37:13 Error: [FacebookApiException] Invalid OAuth access token signature.
+#0 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(870): BaseFacebook->throwAPIException(Array)
+#1 [internal function]: BaseFacebook->_graph()
+#2 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(644): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/social/app/Controller/HomeController.php(7): BaseFacebook->api()
+#4 [internal function]: HomeController->index('home')
+#5 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#6 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-11-11 22:38:15 Error: [FacebookApiException] Invalid OAuth access token signature.
+#0 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(870): BaseFacebook->throwAPIException(Array)
+#1 [internal function]: BaseFacebook->_graph('')
+#2 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(644): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/social/app/Controller/HomeController.php(7): BaseFacebook->api('')
+#4 [internal function]: HomeController->index('home')
+#5 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#6 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-11-11 22:38:16 Error: [FacebookApiException] Invalid OAuth access token signature.
+#0 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(870): BaseFacebook->throwAPIException(Array)
+#1 [internal function]: BaseFacebook->_graph('')
+#2 /Applications/MAMP/htdocs/social/app/Plugin/Facebook/Vendor/base_facebook.php(644): call_user_func_array(Array, Array)
+#3 /Applications/MAMP/htdocs/social/app/Controller/HomeController.php(7): BaseFacebook->api('')
+#4 [internal function]: HomeController->index('home')
+#5 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#6 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-11-11 22:51:13 Error: Fatal Error (4): syntax error, unexpected 'App' (T_STRING), expecting function (T_FUNCTION) in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 3]
+2012-11-11 22:51:13 Error: [FatalErrorException] syntax error, unexpected 'App' (T_STRING), expecting function (T_FUNCTION)
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 3, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 3, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 22:51:13 Error: Fatal Error (4): syntax error, unexpected 'App' (T_STRING), expecting function (T_FUNCTION) in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 3]
+2012-11-11 22:51:13 Error: [FatalErrorException] syntax error, unexpected 'App' (T_STRING), expecting function (T_FUNCTION)
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 3, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 3, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 22:51:18 Error: Fatal Error (4): syntax error, unexpected 'App' (T_STRING), expecting function (T_FUNCTION) in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 3]
+2012-11-11 22:51:18 Error: [FatalErrorException] syntax error, unexpected 'App' (T_STRING), expecting function (T_FUNCTION)
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 3, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 3, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 22:51:19 Error: Fatal Error (4): syntax error, unexpected 'App' (T_STRING), expecting function (T_FUNCTION) in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 3]
+2012-11-11 22:51:19 Error: [FatalErrorException] syntax error, unexpected 'App' (T_STRING), expecting function (T_FUNCTION)
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 3, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 3, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 22:54:54 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Model/Model.php(3179): Model->setSource('homes')
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Model/Model.php(1301): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/social/lib/Cake/View/Helper/FormHelper.php(197): Model->schema()
+#3 /Applications/MAMP/htdocs/social/lib/Cake/View/Helper/FormHelper.php(438): FormHelper->_introspectModel('Home', 'fields')
+#4 /Applications/MAMP/htdocs/social/app/View/Home/index.ctp(4): FormHelper->create('Home', Array)
+#5 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(921): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(884): View->_evaluate('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(476): View->_render('/Applications/M...')
+#8 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#9 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#10 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-11-11 22:55:03 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Model/Model.php(3179): Model->setSource('homes')
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Model/Model.php(1301): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/social/lib/Cake/View/Helper/FormHelper.php(197): Model->schema()
+#3 /Applications/MAMP/htdocs/social/lib/Cake/View/Helper/FormHelper.php(438): FormHelper->_introspectModel('Home', 'fields')
+#4 /Applications/MAMP/htdocs/social/app/View/Home/index.ctp(4): FormHelper->create('Home', Array)
+#5 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(921): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(884): View->_evaluate('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(476): View->_render('/Applications/M...')
+#8 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#9 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#10 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-11-11 22:55:53 Error: [CakeException] Missing field name for FormHelper::text
+#0 /Applications/MAMP/htdocs/social/app/View/Home/index.ctp(5): FormHelper->__call('text', Array)
+#1 /Applications/MAMP/htdocs/social/app/View/Home/index.ctp(5): FormHelper->text()
+#2 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(921): include('/Applications/M...')
+#3 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(884): View->_evaluate('/Applications/M...', Array)
+#4 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(476): View->_render('/Applications/M...')
+#5 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#6 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#8 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-11-11 22:57:54 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Model/Model.php(3179): Model->setSource('homes')
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Model/Model.php(1301): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/social/lib/Cake/View/Helper/FormHelper.php(197): Model->schema()
+#3 /Applications/MAMP/htdocs/social/lib/Cake/View/Helper/FormHelper.php(438): FormHelper->_introspectModel('Home', 'fields')
+#4 /Applications/MAMP/htdocs/social/app/View/Home/index.ctp(4): FormHelper->create(NULL, Array)
+#5 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(921): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(884): View->_evaluate('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(476): View->_render('/Applications/M...')
+#8 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#9 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#10 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-11-11 22:58:09 Error: [MissingControllerException] Controller class HomesController could not be found.
+#0 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 22:58:12 Error: [MissingControllerException] Controller class HomesController could not be found.
+#0 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-11 22:59:33 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Model/Model.php(3179): Model->setSource('homes')
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Model/Model.php(1301): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/social/lib/Cake/View/Helper/FormHelper.php(197): Model->schema()
+#3 /Applications/MAMP/htdocs/social/lib/Cake/View/Helper/FormHelper.php(438): FormHelper->_introspectModel('Home', 'fields')
+#4 /Applications/MAMP/htdocs/social/app/View/Home/index.ctp(4): FormHelper->create(NULL, Array)
+#5 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(921): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(884): View->_evaluate('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(476): View->_render('/Applications/M...')
+#8 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#9 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#10 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-11-11 22:59:42 Error: [MissingTableException] Table homes for model Home was not found in datasource default.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Model/Model.php(3179): Model->setSource('homes')
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Model/Model.php(1301): Model->getDataSource()
+#2 /Applications/MAMP/htdocs/social/lib/Cake/View/Helper/FormHelper.php(197): Model->schema()
+#3 /Applications/MAMP/htdocs/social/lib/Cake/View/Helper/FormHelper.php(438): FormHelper->_introspectModel('Home', 'fields')
+#4 /Applications/MAMP/htdocs/social/app/View/Home/index.ctp(4): FormHelper->create(NULL, Array)
+#5 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(921): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(884): View->_evaluate('/Applications/M...', Array)
+#7 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(476): View->_render('/Applications/M...')
+#8 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#9 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#10 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#11 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-11-11 22:59:59 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/social/app/View/Home/search.ctp" is missing.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-11 23:00:00 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/social/app/View/Home/search.ctp" is missing.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-11 23:04:26 Error: [MissingActionException] Action HomeController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-11 23:04:26 Error: [MissingActionException] Action HomeController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-11 23:04:27 Error: [MissingActionException] Action HomeController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-11 23:15:04 Error: Fatal Error (4): syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in [/Applications/MAMP/htdocs/social/app/View/Home/search.ctp, line 4]
+2012-11-11 23:15:04 Error: [FatalErrorException] syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';'
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 4, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 4, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 23:15:22 Error: Fatal Error (4): syntax error, unexpected '<' in [/Applications/MAMP/htdocs/social/app/View/Home/search.ctp, line 15]
+2012-11-11 23:15:22 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 15, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 15, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-11 23:19:45 Error: [MissingActionException] Action HomeController::search() could not be found.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-13 12:24:37 Error: [MissingActionException] Action HomeController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-13 12:24:48 Error: [MissingActionException] Action HomeController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-13 12:24:56 Error: [MissingActionException] Action HomeController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-13 12:24:56 Error: [MissingActionException] Action HomeController::favicon.ico() could not be found.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-13 12:43:52 Error: [MissingPluginException] Plugin Facebook could not be found.
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(364): CakePlugin::path('Facebook')
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(225): App::pluginPath('Facebook')
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(542): App::path('Controller/Comp...', 'Facebook')
+#3 [internal function]: App::load('ConnectComponen...')
+#4 [internal function]: spl_autoload_call('ConnectComponen...')
+#5 /Applications/MAMP/htdocs/social/lib/Cake/Controller/ComponentCollection.php(99): class_exists('ConnectComponen...')
+#6 /Applications/MAMP/htdocs/social/lib/Cake/Controller/ComponentCollection.php(52): ComponentCollection->load('Facebook.Connec...', Array)
+#7 /Applications/MAMP/htdocs/social/lib/Cake/Controller/Controller.php(634): ComponentCollection->init(Object(HomeController))
+#8 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(182): Controller->constructClasses()
+#9 /Applications/MAMP/htdocs/social/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#10 /Applications/MAMP/htdocs/social/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-11-13 12:44:32 Error: [MissingPluginException] Plugin Facebook could not be found.
+#0 /Applications/MAMP/htdocs/social/app/Config/bootstrap.php(182): CakePlugin::load('Facebook')
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Core/Configure.php(92): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/social/lib/Cake/bootstrap.php(146): Configure::bootstrap(true)
+#3 /Applications/MAMP/htdocs/social/app/webroot/index.php(77): include('/Applications/M...')
+#4 {main}
+2012-11-13 12:45:28 Error: [MissingPluginException] Plugin Weibo could not be found.
+#0 /Applications/MAMP/htdocs/social/app/Config/bootstrap.php(183): CakePlugin::load('Weibo')
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Core/Configure.php(92): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/social/lib/Cake/bootstrap.php(146): Configure::bootstrap(true)
+#3 /Applications/MAMP/htdocs/social/app/webroot/index.php(77): include('/Applications/M...')
+#4 {main}
+2012-11-13 12:59:50 Error: [MissingPluginException] Plugin Weibo could not be found.
+#0 /Applications/MAMP/htdocs/social/app/Config/bootstrap.php(183): CakePlugin::load('Weibo')
+#1 /Applications/MAMP/htdocs/social/lib/Cake/Core/Configure.php(92): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/social/lib/Cake/bootstrap.php(146): Configure::bootstrap(true)
+#3 /Applications/MAMP/htdocs/social/app/webroot/index.php(77): include('/Applications/M...')
+#4 {main}
+2012-11-13 13:02:21 Error: Fatal Error (1): Class 'RenrenRestApiService' not found in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 10]
+2012-11-13 13:02:21 Error: [FatalErrorException] Class 'RenrenRestApiService' not found
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'RenrenRe...', '/Applications/M...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'RenrenRe...', '/Applications/M...', 10, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'RenrenRe...', '/Applications/M...', 10, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-13 13:03:19 Error: Fatal Error (1): Class 'RenrenRestApiService' not found in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 10]
+2012-11-13 13:03:19 Error: [FatalErrorException] Class 'RenrenRestApiService' not found
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'RenrenRe...', '/Applications/M...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'RenrenRe...', '/Applications/M...', 10, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'RenrenRe...', '/Applications/M...', 10, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-13 13:06:24 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'RenrenRestApiService.class.php' (include_path='/Applications/MAMP/htdocs/social/lib:.:/Applications/MAMP/bin/php/php5.4.4/lib/php') in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 3]
+2012-11-13 13:06:24 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'RenrenRestApiService.class.php' (include_path='/Applications/MAMP/htdocs/social/lib:.:/Applications/MAMP/bin/php/php5.4.4/lib/php')
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/M...', 3)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/Applications/M...', 3, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/Applications/M...', 3, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-13 13:06:40 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'plugins/RenrenRestApiService.class.php' (include_path='/Applications/MAMP/htdocs/social/lib:.:/Applications/MAMP/bin/php/php5.4.4/lib/php') in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 3]
+2012-11-13 13:06:40 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'plugins/RenrenRestApiService.class.php' (include_path='/Applications/MAMP/htdocs/social/lib:.:/Applications/MAMP/bin/php/php5.4.4/lib/php')
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/M...', 3)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/Applications/M...', 3, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/Applications/M...', 3, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-13 13:10:18 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'Renren/RenrenRestApiService.class.php' (include_path='/Applications/MAMP/htdocs/social/lib:.:/Applications/MAMP/bin/php/php5.4.4/lib/php') in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 3]
+2012-11-13 13:10:18 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'Renren/RenrenRestApiService.class.php' (include_path='/Applications/MAMP/htdocs/social/lib:.:/Applications/MAMP/bin/php/php5.4.4/lib/php')
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Applications/M...', 3)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/Applications/M...', 3, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/Applications/M...', 3, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-13 13:15:56 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS) in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 5]
+2012-11-13 13:15:56 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS)
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 5, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 5, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-13 13:16:22 Error: Fatal Error (4): syntax error, unexpected '；' (T_STRING) in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 3]
+2012-11-13 13:16:22 Error: [FatalErrorException] syntax error, unexpected '；' (T_STRING)
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 3, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 3, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-13 13:16:31 Error: Fatal Error (1): Class 'RenrenRestApiService' not found in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 10]
+2012-11-13 13:16:31 Error: [FatalErrorException] Class 'RenrenRestApiService' not found
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'RenrenRe...', '/Applications/M...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'RenrenRe...', '/Applications/M...', 10, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'RenrenRe...', '/Applications/M...', 10, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-13 13:16:40 Error: Fatal Error (1): Class 'RenrenRestApiService' not found in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 10]
+2012-11-13 13:16:40 Error: [FatalErrorException] Class 'RenrenRestApiService' not found
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'RenrenRe...', '/Applications/M...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'RenrenRe...', '/Applications/M...', 10, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'RenrenRe...', '/Applications/M...', 10, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-13 13:16:45 Error: Fatal Error (1): Class 'RenrenRestApiService' not found in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 10]
+2012-11-13 13:16:45 Error: [FatalErrorException] Class 'RenrenRestApiService' not found
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'RenrenRe...', '/Applications/M...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'RenrenRe...', '/Applications/M...', 10, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'RenrenRe...', '/Applications/M...', 10, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-13 13:16:47 Error: Fatal Error (1): Class 'RenrenRestApiService' not found in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 10]
+2012-11-13 13:16:47 Error: [FatalErrorException] Class 'RenrenRestApiService' not found
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'RenrenRe...', '/Applications/M...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'RenrenRe...', '/Applications/M...', 10, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'RenrenRe...', '/Applications/M...', 10, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-13 13:17:25 Error: Fatal Error (1): Class 'RenrenRestApiService' not found in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 11]
+2012-11-13 13:17:25 Error: [FatalErrorException] Class 'RenrenRestApiService' not found
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'RenrenRe...', '/Applications/M...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'RenrenRe...', '/Applications/M...', 11, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'RenrenRe...', '/Applications/M...', 11, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-13 13:17:28 Error: Fatal Error (1): Class 'RenrenRestApiService' not found in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 11]
+2012-11-13 13:17:28 Error: [FatalErrorException] Class 'RenrenRestApiService' not found
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'RenrenRe...', '/Applications/M...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'RenrenRe...', '/Applications/M...', 11, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'RenrenRe...', '/Applications/M...', 11, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-13 13:17:30 Error: Fatal Error (1): Class 'RenrenRestApiService' not found in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 11]
+2012-11-13 13:17:30 Error: [FatalErrorException] Class 'RenrenRestApiService' not found
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'RenrenRe...', '/Applications/M...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'RenrenRe...', '/Applications/M...', 11, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'RenrenRe...', '/Applications/M...', 11, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-13 13:17:52 Error: Fatal Error (1): Class 'RenrenRestApiService' not found in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 11]
+2012-11-13 13:17:52 Error: [FatalErrorException] Class 'RenrenRestApiService' not found
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'RenrenRe...', '/Applications/M...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'RenrenRe...', '/Applications/M...', 11, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'RenrenRe...', '/Applications/M...', 11, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-13 13:28:44 Error: Fatal Error (1): Class 'UsersController' not found in [/Applications/MAMP/htdocs/social/app/Controller/HomeController.php, line 12]
+2012-11-13 13:28:44 Error: [FatalErrorException] Class 'UsersController' not found
+#0 /Applications/MAMP/htdocs/social/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Class 'UsersCon...', '/Applications/M...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'UsersCon...', '/Applications/M...', 12, Array)
+#2 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'UsersCon...', '/Applications/M...', 12, Array)
+#3 /Applications/MAMP/htdocs/social/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
